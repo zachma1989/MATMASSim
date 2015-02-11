@@ -1,7 +1,5 @@
 package matmassim;
 
-import org.matsim.core.network.*;
-
 import java.lang.ref.*;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -63,6 +61,8 @@ public class Link_MASS extends Place
 	private static final int maxLoopWarnCnt = 1;
 	
 	private int[] neighbours;
+	
+	final private static Logger log = Logger.getLogger(Link_MASS.class);
 
 //	private static final Set<String> DEFAULT_ALLOWED_MODES;
 //	static {
