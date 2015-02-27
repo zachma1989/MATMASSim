@@ -1,0 +1,913 @@
+MProcess started
+A new message received: action = PLACES_INITIALIZE
+PLACES_INITIALIZE received
+PLACES_INITIALIZE completed and ACK sent
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_INITIALIZE
+PLACES_INITIALIZE received
+PLACES_INITIALIZE completed and ACK sent
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = PLACES_CALL_ALL_VOID_OBJECT
+PLACES_CALL_ALL_VOID_OBJECT received
+A new message received: action = PLACES_EXCHANGE_ALL
+PLACES_EXCHANGE_ALL recweived handle = 1 dest_handle = 1
+barrier done
+PLACES_EXCHANGE_ALL sent ACK
+A new message received: action = PLACES_CALL_ALL_RETURN_OBJECT
+PLACES_CALL_ALL_RETURN_OBJECT received
+PLACES_CALL_ALL_RETURN_OBJECT checking currentReturns
+A new message received: action = FINISH
+FINISH received and ACK sent

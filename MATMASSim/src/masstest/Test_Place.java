@@ -28,9 +28,18 @@ public class Test_Place extends Place {
     }
 	
 	public void setNeighbours( Object argument ) {
-		// TODO: Thinking about 2d array, and each cell will also be a int[] to store the indi ces
+		// TODO: Thinking about 2d array, and each cell will also be a int[] to store the indices
 		
-		this.neighbours = ( Vector< int[] > )argument;
+		Object[] neighbourList = (Object[])argument;
+		
+		if ( neighbourList != null ) {
+			for (int i = 0; i < neighbourList.length; i++) {
+				
+				int[] indices = (int[])neighbourList[i];
+				
+				this.neighbours.add( indices );
+			}
+		}
 		
 	}
 	
