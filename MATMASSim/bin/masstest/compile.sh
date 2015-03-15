@@ -1,0 +1,1 @@
+javac -cp MASS.jar:jsch-0.1.44.jar:. Unit_Test.java Test_Place.java

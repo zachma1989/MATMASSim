@@ -6,13 +6,18 @@ import edu.uw.bothell.css.dsl.MASS.Places;
 import java.util.Vector;
 
 public class Unit_Test{
+	
+	// default constructor
+	public Unit_Test() {
+		
+	}
 
 	public  static void main( String[] args ) {
 		
-		if ( args.length != 9 ) {
-			System.out.println( "usage: ./main username password machinefile port nProc nThr" );
-			System.exit( 0 );
-		}
+//		if ( args.length != 8 ) {
+//			System.out.println( "usage: ./main username password machinefile port nProc nThr" );
+//			System.exit( 0 );
+//		}
 		
 		String[] arguments = new String[4];
 		arguments[0] = args[1]; // username
@@ -23,7 +28,7 @@ public class Unit_Test{
 		int nProc = Integer.parseInt( args[5] ); 		// # of process
 		int nThr = Integer.parseInt( args[6] );  		// # of thread
 		int size = Integer.parseInt( args[7] );  		// array size
-		int maxTime = Integer.parseInt( args[8] );  	// simulation time
+//		int maxTime = Integer.parseInt( args[8] );  	// simulation time
 
 
 		MASS.init( arguments, nProc, nThr );
@@ -40,7 +45,7 @@ public class Unit_Test{
 		int[] parameters = (int[]) testPlaces.callAll( Test_Place.collectParameter, null );
 		
 		
-		// Printng out all place's parameter value
+		// Printing out all place's parameter value
 		for (int i = 0; i < parameters.length; i++ ) {
 			
 			System.out.println( parameters[i] + " " );
