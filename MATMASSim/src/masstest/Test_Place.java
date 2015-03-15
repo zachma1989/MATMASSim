@@ -1,5 +1,7 @@
 package masstest;
 
+import java.util.Vector;
+
 import edu.uw.bothell.css.dsl.MASS.Place;
 
 public class Test_Place extends Place {
@@ -32,14 +34,18 @@ public class Test_Place extends Place {
 		
 		Object[] neighbourList = (Object[])argument;
 		
+		Vector< int[] > neighbours = null;
+		
 		if ( neighbourList != null ) {
 			for (int i = 0; i < neighbourList.length; i++) {
 				
 				int[] indices = (int[])neighbourList[i];
 				
-				this.neighbours.add( indices );
+				neighbours.add( indices );
 			}
 		}
+		
+		this.setNeighbours( neighbours );
 		
 	}
 	
