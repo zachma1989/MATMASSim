@@ -9,18 +9,10 @@ import java.util.Map;
 
 import edu.uw.bothell.css.dsl.MASS.*;
 
-import org.matsim.api.core.v01.BasicLocation;
-import org.matsim.api.core.v01.Coord;
 import org.matsim.api.core.v01.Id;
-import org.matsim.api.core.v01.Identifiable;
 import org.matsim.api.core.v01.network.Link;
 import org.matsim.api.core.v01.network.Node;
 import org.matsim.api.core.v01.network.Network;
-import org.matsim.core.network.LinkImpl;
-import org.matsim.core.network.NetworkChangeEvent;
-import org.matsim.core.network.NetworkFactoryImpl;
-import org.matsim.core.network.NetworkUtils;
-import org.matsim.core.network.TimeVariantLinkImpl;
 
 public class Network_MASS implements Network {
 	
@@ -47,11 +39,11 @@ public class Network_MASS implements Network {
 	private Map<Id, List<List<Id>> > adjacencyList;
 	
 	
-	public Network_MASS() {
+	public Network_MASS(int[] size) {
 		
 		this.adjacencyList = new HashMap<Id, List<List<Id>>>();	
 		
-		this.network = new Places(1, "Element_MASS", null, 133);
+		this.network = new Places(1, "Element_MASS", null, size);
 		
 	}
 	

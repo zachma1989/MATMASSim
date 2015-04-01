@@ -38,9 +38,10 @@ public class QSimEngineRunner_MASS {
 
 	
 	
-	public QSimEngineRunner_MASS(String[] arguments, int nProc, int nThr) {
+	public QSimEngineRunner_MASS(String[] arguments, int nProc, int nThr, int[] size) {
 		
-		this.network = new Network_MASS();
+		
+		this.network = new Network_MASS( size );
 		
 		MASS.init( arguments, nProc, nThr );
 		
