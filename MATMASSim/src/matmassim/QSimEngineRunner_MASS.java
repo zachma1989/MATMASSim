@@ -12,14 +12,7 @@ import org.matsim.core.mobsim.qsim.qnetsimengine.QNode;
 
 import edu.uw.bothell.css.dsl.MASS.MASS;
 import edu.uw.bothell.css.dsl.MASS.Places;
-import mass_debugger.Wave2D_Java.Debugger;
 
-/**
- * These are the "threads" of the {@link ParallelQNetsimEngine}. The "run()" method is implicitly called by starting the thread.  
- * 
- * @author (of this documentation) nagel
- *
- */
 public class QSimEngineRunner_MASS {
 
 	private double time = 0.0;
@@ -29,29 +22,15 @@ public class QSimEngineRunner_MASS {
 
 	private final List<QNode> nodesList = new ArrayList<QNode>();
 	private final List<QLinkInternalI> linksList = new ArrayList<QLinkInternalI>();
-
-	/** 
-	 * This is the collection of nodes that have to be activated in the current time step.
-	 * This needs to be thread-safe since it is not guaranteed that each incoming link is handled
-	 * by the same thread as a node itself.
-	 * A node could be activated multiple times concurrently from different incoming links within 
-	 * a time step. To avoid this,
-	 * a) 	the activateNode() method in the QNode class could be synchronized or 
-	 * b) 	a map could be used instead of a list. By doing so, no multiple entries are possible.
-	 * 		However, still multiple "put" operations will be performed for the same node.
-	 */
+	
 	private final Map<Id, QNode> nodesToActivate = new ConcurrentHashMap<Id, QNode>();
 	
-	private Places networkPlaces;
-	
-	private int exchangNetworkParameters = 0;
-	private int exchangNodeParameters = 1;
-	private int exchangLinkParameters = 2;
+	private Network_MASS network;
 	
 	//MASS Debugger
-	private Places debugger;
-	private int nProcesses = 4;
-	private Object[] debugData;
+//	private Places debugger;
+//	private int nProcesses = 4;
+//	private Object[] debugData;
 	
 	
 	/** This is the collection of links that have to be activated in the current time step */
@@ -61,11 +40,13 @@ public class QSimEngineRunner_MASS {
 	
 	public QSimEngineRunner_MASS(String[] arguments, int nProc, int nThr) {
 		
+		this.network = new Network_MASS();
+		
 		MASS.init( arguments, nProc, nThr );
 		
-		debugger = new Places(99, "Debugger", (Object)(1), 8);
-		debugger.callAll( Debugger.init_);
-		debugData = new Object[8];
+//		debugger = new Places(99, "Debugger", (Object)(1), 8);
+//		debugger.callAll( Debugger.init_);
+//		debugData = new Object[8];
 		
 	}
 
@@ -82,8 +63,11 @@ public class QSimEngineRunner_MASS {
 		 * The method is ended when the simulationRunning Flag is
 		 * set to false.
 		 */
-		while(true) {
+		while( this.simulationRunning ) {
 			try {
+				
+				//At the beginning of each iteration
+				this.network.network.callAll( Element_MASS.collectParameter );
 
 				/*
 				 * Move Nodes
@@ -97,8 +81,6 @@ public class QSimEngineRunner_MASS {
 					if (!node.isActive()) simNodes.remove();
 				}
 
-				//networkPlaces.exchangeAll(1, exchangNodeParameters);
-				
 				
 				/*
 				 * Move Links
@@ -117,19 +99,19 @@ public class QSimEngineRunner_MASS {
 					}
 				}
 				
-				//networkPlaces.exchangeAll(1, exchangLinkParameters);
-				
-				networkPlaces.exchangeAll(1, exchangNetworkParameters);
+				this.network.network.exchangeAll(1, Element_MASS.exchangeParameter);
 				
 				//Mass Debugger
-			    Object[] debugParam = new Integer[nProcesses];
-			    debugData = (Object[])debugger.callAll(Debugger.fetchDebugData_, debugParam);
-			    //here we should let debugger send data to GUI
-			    Debugger.sendDataToGUI();
+//			    Object[] debugParam = new Integer[nProcesses];
+//			    debugData = (Object[])debugger.callAll(Debugger.fetchDebugData_, debugParam);
+//			    //here we should let debugger send data to GUI
+//			    Debugger.sendDataToGUI();
 
 
 			} catch (Exception e) {}
 		}
+		
+		MASS.finish();
 	}
 
 

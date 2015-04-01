@@ -1,26 +1,18 @@
 package matmassim;
 
-import java.lang.ref.*;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
-import java.util.concurrent.ConcurrentHashMap;
 
 import org.apache.log4j.Logger;
 import org.matsim.api.core.v01.Coord;
 import org.matsim.api.core.v01.Id;
-import org.matsim.api.core.v01.TransportMode;
 import org.matsim.api.core.v01.network.Link;
 import org.matsim.api.core.v01.network.Network;
 import org.matsim.api.core.v01.network.Node;
 import org.matsim.core.gbl.Gbl;
-import org.matsim.core.utils.geometry.CoordImpl;
 import org.matsim.core.utils.geometry.CoordUtils;
 import org.matsim.core.utils.misc.Time;
 
@@ -33,6 +25,8 @@ public class Element_MASS extends Place
 
 	protected Node from = null;
 	protected Node to = null;
+	
+	protected Coord coord;
 
 	protected double length = Double.NaN;
 	protected double freespeed = Double.NaN;
@@ -60,16 +54,42 @@ public class Element_MASS extends Place
 	private static final int maxLengthWarnCnt = 1;
 	private static final int maxLoopWarnCnt = 1;
 	
-	private int[] neighbours;
+	private Vector < int[] > neighbours;
 	
 	final private static Logger log = Logger.getLogger(Element_MASS.class);
 
-//	private static final Set<String> DEFAULT_ALLOWED_MODES;
-//	static {
-//		Set<String> set = new HashSet<String>();
-//		set.add(TransportMode.car);
-//	}
+	public Element_MASS( Id id ) {
+		this.id = id;
+	}
 
+	public Element_MASS(Id id, Element_MASS from, Element_MASS to, Network_MASS network,
+			double length, double freespeed, double capacity,
+			double nOfLanes, String type) {
+		this.id = id;
+		
+		this.type = type;
+		this.setOutMessage( type );
+		
+		this.network = network;
+		this.from = from;
+		this.to = to;
+		//this.allowedModes = DEFAULT_ALLOWED_MODES;
+		this.setLength(length);
+		this.freespeed = freespeed;
+		this.checkFreespeedSemantics();
+		this.capacity = capacity;
+		this.calculateFlowCapacity();
+		this.checkCapacitiySemantics();
+		this.nofLanes = nOfLanes;
+		this.checkNumberOfLanesSemantics();
+		this.euklideanDist = CoordUtils.calcDistance(this.from.getCoord(), this.to.getCoord());
+		if (this.from.equals(this.to) && (loopWarnCnt < maxLoopWarnCnt)) {
+			loopWarnCnt++ ;
+			log.warn("[from=to=" + this.to + " link is a loop]");
+			if ( loopWarnCnt == maxLoopWarnCnt )
+				log.warn(Gbl.FUTURE_SUPPRESSED ) ;
+		}
+	}
 
 	private void calculateFlowCapacity() {
 		this.flowCapacity = this.capacity / getCapacityPeriod();
@@ -81,12 +101,7 @@ public class Element_MASS extends Place
 	}
 
 	private void checkCapacitiySemantics() {
-		/*
-		 * I see no reason why a freespeed and a capacity of zero should not be
-		 * allowed! joh 9may2008
-		 * The warning says that it _may_ cause problems.  Not pretty if you want to get rid of warnings completely, but
-		 * hopefully acceptable for the time being.  kai, oct'10
-		 */
+		
 		if ((this.capacity <= 0.0) && (cpWarnCnt < maxCpWarnCnt) ) {
 			cpWarnCnt++ ;
 		}
@@ -230,12 +245,6 @@ public class Element_MASS extends Place
 		return getFreespeed(Time.UNDEFINED_TIME);
 	}
 
-	/**
-	 * This method returns the freespeed velocity in meter per seconds.
-	 *
-	 * @param time - the current time
-	 * @return freespeed
-	 */
 	@Override
 	public double getFreespeed(final double time) { // not final since needed in TimeVariantLinkImpl
 		return this.freespeed;
@@ -316,6 +325,10 @@ public class Element_MASS extends Place
 		"[type=" + this.type + "]";
 	}
 	
+	public void setCoord(Coord coord) {
+		this.coord = coord;
+	}
+	
 	@Override
 	public Coord getCoord() {
 		return null;
@@ -330,7 +343,7 @@ public class Element_MASS extends Place
 		return (Network)this.network;
 	}
 	
-	// For Node
+	// For Node (Unused methods)
 	@Override
 	public boolean addInLink(Link link) {
 		// TODO Auto-generated method stub
@@ -356,43 +369,90 @@ public class Element_MASS extends Place
 	}
 
 	// MASS portion
-	public void setNeighbours( Vector<int[]> neighbours ){
-    	
-    	// Go through the list    	
-    	// Store neighbours for each node and link to their corresponding Place class
-    	for ( int i = 0; i < neighbours.size( ); i++ ) {
-    			    
-    		// for each neighbor
-    		int[] offset = neighbours.get(i);
-    		int[] neighborCoord = new int[10];
-
-		    
-		    neighbours.add( neighborCoord );
-    	}
-    	
+	
+	public static final int setNeighbours = 0;
+	public static final int exchangeParameter = 1;
+	public static final int collectParameter = 2;
+	
+	@ Override
+	public Object callMethod( int functionId, Object argument ) {
+		
+		switch ( functionId ) {
+		
+			case setNeighbours:
+				setNeighbours( argument );
+		
+			case exchangeParameter:
+				exchangeParameter( argument );
+			
+		}
+    	return null;
     }
 	
-	public void exchangeNetworkParameter() {
+	public void setNeighbours( Object argument ) {
 		
-		// move the previous return values to my neighbors[].
-		if ( !inMessages.empty() ) {
-
-			for ( size_t i = 0; i < inMessages.size(); i++ ){
-			
-				if (inMessages[i] != NULL){  
+		Object[] neighbourList = (Object[])argument;
+		
+		if ( neighbourList != null ) {
+			for (int i = 0; i < neighbourList.length; i++) {
 				
-					neighbors[i] = inMessages[i];
-					extractParameters();
-				}
+				int[] indices = (int[])neighbourList[i];
+				
+				this.neighbours.add( indices );
 			}
-			
-			inMessages.clear();
 		}
-
+		
+		this.setNeighbours( neighbours );
 		
 	}
 	
-	private void extractParameters(  ) {
+	public Object exchangeParameter( Object argument ) {
+		
+		String type = (String) argument;
+		
+		Object[] parameters = (Object[]) new Object();
+		
+		if ( parameters.length != 0 ) {
+
+			if ( type.equals("Node") ){
+				
+				parameters[1] = this.freespeed;
+				parameters[2] = this.capacity;
+			}
+			else if ( type.equals( "Link" ) ) {
+				parameters[1] = this.freespeed;
+				parameters[2] = this.capacity;
+				parameters[3] = this.flowCapacity;
+				parameters[4] = this.euklideanDist;
+			}
+			
+			
+		}
+
+		return parameters;
+		
+	}
+	
+	public void collectParameter() {
+		
+		Object[] parameters = this.getInMessages();
+		
+		if ( parameters.length != 0 ) {
+
+			if ( type.equals("Node") ){
+				
+				this.freespeed = (double) parameters[1];
+				this.capacity = (double) parameters[2];
+			}
+			else if ( type.equals( "Link" ) ) {
+				this.freespeed = (double) parameters[1];
+				this.capacity = (double) parameters[2];
+				this.flowCapacity = (double) parameters[3];
+				this.euklideanDist = (double) parameters[4];
+			}
+			
+			
+		}
 		
 	}
 
